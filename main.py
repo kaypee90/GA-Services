@@ -6,7 +6,7 @@ def is_database_connected():
     try:
         # Replace with your actual database connection details
         conn = psycopg2.connect(
-            host="postgres",
+            host="localhost",
             database="postgresdb",
             user="postgres",
             password="postgres",
