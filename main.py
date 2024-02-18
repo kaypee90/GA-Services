@@ -1,11 +1,11 @@
 # author kaypee90
 
-import psycopg3
+import psycopg2
 
 def is_database_connected():
     try:
         # Replace with your actual database connection details
-        conn = psycopg3.connect(
+        conn = psycopg2.connect(
             host="postgres",
             database="postgresdb",
             user="postgres",
