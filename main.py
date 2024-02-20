@@ -22,6 +22,6 @@ def is_database_connected():
         print(f"Error: {e}")
         return False
 
-# Run the async functionx
+
 connection_status = is_database_connected()
 print(f"Database connected: {connection_status}")
