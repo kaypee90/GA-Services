@@ -1,4 +1,4 @@
-# This workflow tests DB connection
+# This workflow tests Postgres DB connection
 name: Python application
 
 on:
