@@ -1,4 +1,4 @@
-# author kaypee90
+# psycopg2 database connection check
 
 import psycopg2
 
