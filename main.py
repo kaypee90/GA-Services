@@ -24,4 +24,4 @@ def is_database_connected():
 
 
 connection_status = is_database_connected()
-print(f"Database connected: {connection_status}")
+print(f"Database is connected: {connection_status}")
